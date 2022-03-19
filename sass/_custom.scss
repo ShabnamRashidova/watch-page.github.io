@@ -1,0 +1,160 @@
+.home-section,
+.header {
+  background-color: #d70d25;
+}
+.section-title {
+  .title {
+    color: #d70d25;
+    &::before {
+      color: #d70d25;
+    }
+  }
+}
+.myBtn1 {
+  color: #d70d25;
+  &:hover {
+    color: #d70d25;
+  }
+}
+.about-content {
+  ul {
+    li {
+      i {
+        color: #d70d25;
+      }
+    }
+  }
+}
+.features-section {
+  .features-item {
+    &:hover {
+      background-color: #d70d25;
+    }
+    .icon {
+      i {
+        color: #d70d25;
+      }
+    }
+  }
+}
+.products-section {
+  .products-item {
+    .product-content {
+      .product-price {
+        .new-price {
+          color: #d70d25;
+        }
+      }
+    }
+  }
+}
+.owl-carousel {
+  .owl-nav {
+    button {
+      &.owl-next,
+      &.owl-prev {
+        background-color: #d70d25;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid #d70d25;
+          color: #d70d25;
+        }
+      }
+    }
+  }
+}
+.testimonial-section {
+  &::before {
+    background-color: #d70d25;
+  }
+  .owl-carousel {
+    .owl-nav {
+      button {
+        &.owl-next,
+        &.owl-prev {
+          color: #d70d25;
+        }
+      }
+    }
+  }
+  .testi-item {
+    .client-info {
+      img {
+        border-color: #d70d25 !important;
+      }
+      .info {
+        h5 {
+          color: #d70d25;
+        }
+      }
+    }
+  }
+}
+.faq-section {
+  .support-text {
+    a {
+      color: #d70d25 !important;
+    }
+  }
+}
+.newsletter-section {
+  &::before {
+    background-color: #d70d25;
+  }
+}
+.newsletter-section,
+.contact-section {
+  .mybtn2 {
+    background-color: #d70d25 !important;
+  }
+}
+.contact-section {
+  .contact-form {
+    .form-group {
+      .form-control {
+        &:focus {
+          border-color: #d70d25 !important;
+        }
+      }
+      textarea.form-control {
+        height: 120px;
+      }
+    }
+  }
+  .contact-item {
+    .icon {
+      i {
+        color: #d70d25;
+      }
+    }
+    .info {
+      h5 {
+        color: #d70d25;
+      }
+    }
+  }
+}
+.footer {
+  background-color: #d70d25;
+  .footer-social-link {
+    a {
+      i {
+        &:hover {
+          color: #d70d25;
+        }
+      }
+    }
+  }
+}
+@media(max-width:998px){
+  header{
+      .navbar-nav{
+         .nav-item{
+           .nav-link{
+             color:#d70d25 
+             !important;
+           }
+         }
+      }
+  }
+}
